@@ -4,10 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Satyam</title>
-    <link rel="stylesheet" href="/styles/style.css">
-    <link rel="stylesheet" href="/styles/cnav.css">
-    <link rel="stylesheet" href="/styles/typingIndex.css">
-    <link rel="stylesheet" href="/styles/contact.css">
+    <link rel="stylesheet" href="../styles/style.css">
+    <link rel="stylesheet" href="../styles/cnav.css">
+    <link rel="stylesheet" href="../styles/typingIndex.css">
+    <link rel="stylesheet" href="../styles/contact.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!-- Boxicons CSS -->
     <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
@@ -20,7 +20,7 @@
                 <li><a href="">HOME</a></li>
                 <li><a href="">SKILLS</a></li>
                 <li><a href="">PROJECTS</a></li>
-                <li><a href="">HACKATHON's</a></li>
+                <li><a href="">HACKATHON</a></li>
                 <li><a href="">CONTACT ME</a></li>
             </ul>
             <img src="assets/moon.png" alt="toggle" id="icon">
@@ -33,7 +33,7 @@
                 <div class="info"> <!-- Start info class 🔶 -->
                     <h1>I'm <span>Satyam</span><br>Yadav</h1>
                     <p>This is my official website to showcase my all works related to web<br class="nobr"> development and other projects.</p>
-                    <a href="./assets/CV.jpg" class="on">Download CV</a>
+                    <a href="../assets/CV.jpg" class="on">Download CV</a>
                 </div> <!--  End info class 🔶 -->
 
                 <div class="social-link"><!--Start social link class🔶-->
@@ -47,8 +47,8 @@
 
 
             <div class="img-box"> <!-- start img box class ⭐ -->
-                <img src="assets/pattern.png" alt="pattern" class="back-img">
-                <img src="assets/satyamHD.png" alt="pattern" class="main-img">
+                <img src="../assets/pattern.png" alt="pattern" class="back-img">
+                <img src="../assets/satyamHD.png" alt="pattern" class="main-img">
             </div><!-- End ing box class ⭐ -->
         </div> <!-- start main page 😎 -->
     </div> <!-- End hero class  -->
@@ -82,19 +82,23 @@
         <div class="connect">
             <h3>Connect With Me</h3>
             <li><i class="fa-solid fa-location-dot ico"></i> Planet Earth 🌍</li>
-            <li><i class="fa-solid fa-envelope ico"></i> <p>satyamyadav9uv@gmail.com</p></li>
+            <li><i class="fa-solid fa-envelope ico"></i> satyamok03@gmail.com</li>
             <div class="social-link">
-                <a href="www.linkedin.com/in/dearcoder-satyam"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://www.linkedin.com/in/dearcoder-satyam"><i class="fa-brands fa-linkedin"></i></a>
                 <a href="https://github.com/SimpleCyber"><i class="fa-brands fa-github"></i></a>
-                <a href="youtube.com"><i class="fa-brands fa-youtube"></i></a>
+                <a href="https://youtube.com"><i class="fa-brands fa-youtube"></i></a>
                 <a href="https://leetcode.com/u/pkc5uOVzbM/"><i class="fa-solid fa-code"></i></a>
                 
             </div>
         </div>
-        <form action="" class="contact-container">
+        <form action="https://api.web3forms.com/submit" method="POST" class="contact-container">
             <h3>Message me </h3>
+
+            <!--  -->
+            <input type="hidden" name="access_key" value="e4dbfa47-dc93-4448-a8b8-042686516c78">
+            <!--  -->
             <input type="text" name="name" placeholder="Your Name" class="contacts-input" required>
-            <input type="email" name="email" placeholder="Your Name" class="contacts-input" required>
+            <input type="email" name="email" placeholder="Your E-mail" class="contacts-input" required>
             <textarea name="message" placeholder="Your message" class="contacts-input" id="textarea" required></textarea>
             
             <button type="submit" class="contacts-input contact-button"> Send message </button>
@@ -109,8 +113,8 @@
 
 
 
-    <script src="/Scripts/cnav.js"></script>
-    <script src="/Scripts/script.js"></script>
-    <script src="/Scripts/typingIndex.js"></script>
+    <script src="../Scripts/cnav.js"></script>
+    <script src="../Scripts/script.js"></script>
+    <script src="../Scripts/typingIndex.js"></script>
 </body>
 </html>
